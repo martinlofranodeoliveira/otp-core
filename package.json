@@ -1,0 +1,14 @@
+{
+  "name": "otp-core",
+  "version": "0.1.0",
+  "description": "HOTP (RFC 4226) and TOTP (RFC 6238) generation and verification with resync windows. Node crypto only.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/otp.test.js",
+    "demo": "node bin/otp.mjs --assert"
+  }
+}
